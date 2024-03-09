@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+    border-bottom: 4px solid black;
+}
+
+ul {
+    display: flex;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+}
+
+li {
+    list-style: none;
+    padding-left: 16px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-left: 20px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
